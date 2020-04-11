@@ -1,0 +1,28 @@
+begin
+assign ( a int )
+assign ( b int )
+assign ( c int )
+assign ( d int )
+assign a to 10
+assign b to 15
+print "Hello all"
+while a+b > 20
+then 
+if b > 15 
+then 
+c = a + b
+endif
+endwhile
+print " The answer is int , c "
+read int , d
+start_procedure myfunction(a int) 
+print int , c
+end_procedure
+for a from 1 to 10
+repeat
+b = b + a
+endfor
+print int , b
+print "Bye"
+end
+
